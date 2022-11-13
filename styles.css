@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --plain-blue: #1DA1F2;
+    --light-grey: #808080;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-container{
+    height: 13vh;
+    background-color: var(--plain-blue);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 0 2rem;
+    margin: auto;   
+}
+
+#brand-name{
+    margin: 1em 2.5rem;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+li{
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+/* IMAGES AND HEADING */
+.icon-title{
+    margin: 5rem 0 0 0 ;
+}
+
+#main-icon{
+    height: 25vh;
+    margin: 3rem 0;
+}
+
+span{
+    color: var(--plain-blue);
+}
+
+hr{
+    margin: 2.5rem 25%;
+    width: 50vw;
+    border: 0.1px solid white;
+}
+
+p{
+    font-size: larger;
+}
+
+/* TECH ICONS */
+
+.skills-icons{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.tech-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-icon{
+    height: 4rem;
+    width: 4rem;
+    padding: 10px;
+    border: 0.2rem solid var(--plain-blue);
+    margin: 3rem 1rem 0 1rem;
+}
+
+/* VIEW MY WORK*/
+.btn{
+    height: 2.4rem;
+    width: 8rem;
+    color: white;
+    background-color: var(--plain-blue);
+    border-radius: 0.9rem;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* FOOTER STYLES*/
+.footer{
+    background-color: var(--plain-blue);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.footer-icons{
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+    margin: auto;
+}
