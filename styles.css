@@ -65,10 +65,18 @@ hr{
     border: 0.1px solid white;
 }
 
+small{
+    margin: 0.5rem 0;
+}
+
 p{
     font-size: larger;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 /* TECH ICONS */
 
 .skills-icons{
@@ -97,6 +105,7 @@ p{
 .btn{
     height: 2.4rem;
     width: 8rem;
+    margin: 0 0.2rem;
     color: white;
     background-color: var(--plain-blue);
     border-radius: 0.9rem;
@@ -105,6 +114,7 @@ p{
 .btn:hover{
     color: black;
     background-color: white;
+    transition: all 0.8s;
 }
 
 /* FOOTER STYLES*/
@@ -124,3 +134,37 @@ p{
     padding: 1rem;
     margin: auto;
 }
+
+/* ---------------------------------------- */
+            /* PROJECTS PAGE */
+/* ---------------------------------------- */
+
+.projects-main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.proj-unit{
+    height: auto;
+    width: 35vw;
+    background-color: rgba(168,168,168, 0.1);
+    border-radius: 2.2rem;
+    margin: 3rem auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proj-subunit{
+    flex: 1;
+}
+
+.proj-unit-btn{
+    display: flex;
+    justify-content: center;
+}
+
