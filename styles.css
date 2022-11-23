@@ -109,6 +109,7 @@ a{
     color: white;
     background-color: var(--plain-blue);
     border-radius: 0.9rem;
+    cursor: pointer;
 }
 
 .btn:hover{
